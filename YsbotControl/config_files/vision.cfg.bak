@@ -1,0 +1,13 @@
+#####  true, false
+[Vision] 
+use_vision  = false
+vision_type = huicui
+port        = 8003
+
+###( Dummy, Marker, Transform ): 
+image2world_type = Marker 
+
+##### (    image_x,   image_y,   robot_x,  robot_y,  robot_z,   robot_a,  robot_b,  robot_c, fig ):
+marker_1 = 108.0     118.0     290.0    300.08   260.747   180      0        180      5
+marker_2 = 366.0799  142.0799  400.08   300.08   260.747   180      0        180      5
+marker_3 = 374.0799  358.0799  400.08   200.08   260.747   180      0        180      5

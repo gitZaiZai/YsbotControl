@@ -1,0 +1,1877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Servo Headers">
+      <UniqueIdentifier>{fa73407d-4a4b-41eb-b54f-2afb19597a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Servo">
+      <UniqueIdentifier>{e4f9f066-4e8a-443f-8e92-a468c1e4f6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fundamental Headers">
+      <UniqueIdentifier>{e5f0cd9c-dccd-48b7-b7f0-d1771c269b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures Headers">
+      <UniqueIdentifier>{e42c5e6a-a2b7-4691-9d83-9b2b9d7b6766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structures">
+      <UniqueIdentifier>{cfbe1b15-1fa5-4d9c-aa1f-43888e6aeddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fundamental">
+      <UniqueIdentifier>{0174d015-f063-401b-9e65-ac335c647d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Communication Headers">
+      <UniqueIdentifier>{c4e467af-a0d3-414a-9d7c-a5ef79545c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Communication">
+      <UniqueIdentifier>{22c6a7f5-d784-4eec-84ce-d268558f79d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs Headers">
+      <UniqueIdentifier>{29206e35-fd5c-4c8b-84a3-c0a2c98ee73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{e7522033-eb73-434b-ad62-a274a9cd12c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WorldModel Headers">
+      <UniqueIdentifier>{9e7b3fa4-c127-4618-a02a-7236ea7d6a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorldModel">
+      <UniqueIdentifier>{b638a311-00d7-4ca7-8a44-255df3fdcd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MotionControl Headers">
+      <UniqueIdentifier>{83f42afc-5366-47a8-ac4b-33cae776a39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MotionControl">
+      <UniqueIdentifier>{d7cf7f1d-44a1-44e4-94ae-23b10618561e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RobotKinematics Headers">
+      <UniqueIdentifier>{8c6dfa73-95b7-4def-9991-1dd52aa810c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RobotKinematics">
+      <UniqueIdentifier>{a1ed7338-20f5-45ec-b389-01ed57192254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FieldBusDevice Headers">
+      <UniqueIdentifier>{8487598b-6ed5-4a0a-bb05-302ecfed7585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FieldBusDevice">
+      <UniqueIdentifier>{8cdc6e29-b044-4e62-be3a-8b8b0953ecaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaScript">
+      <UniqueIdentifier>{7eac39e9-aceb-462e-9ae4-54cd0166c5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaScript Headers">
+      <UniqueIdentifier>{13527d47-e855-4afb-a4c2-6a9c525529da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\constant">
+      <UniqueIdentifier>{2a89a9a6-c135-47b2-9be5-5ac006f720ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\constant">
+      <UniqueIdentifier>{c12d28b1-90f7-41a9-b8e3-2a688d48b575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\function lib">
+      <UniqueIdentifier>{8dd313c5-4c27-4e85-83a2-0520d0a91e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function lib">
+      <UniqueIdentifier>{79a83763-2cd1-4b0f-8862-ea40e2dc2030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grid Control Headers">
+      <UniqueIdentifier>{d8b767b0-27c3-40d1-ba0d-621186f6c73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\New Cell Headers">
+      <UniqueIdentifier>{cbe95030-fc10-4f64-898b-2e8ab2365bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TreeGrid Control Headers">
+      <UniqueIdentifier>{8b56fbde-4f06-456a-8591-427707c9693a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SkinScrollBar Headers">
+      <UniqueIdentifier>{f62aa018-46bc-4f34-b47f-509d3148e601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grid Control Source">
+      <UniqueIdentifier>{32f9f784-4e82-4d22-9ef2-42f3e95d71fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SkinScrollBar Source">
+      <UniqueIdentifier>{bb39c964-4f89-4e45-8ca7-f349c1037219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TreeGrid Control Source">
+      <UniqueIdentifier>{48e6bd26-8bed-4ecc-ac2f-cdbaa60fd54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New Cell Source">
+      <UniqueIdentifier>{a07e7072-743e-40db-8b04-c616dd6313f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Keyboard Headers">
+      <UniqueIdentifier>{87efe3be-0fa0-4ceb-946e-ea854f778592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Keyboard Source">
+      <UniqueIdentifier>{5ab66818-e7f3-4267-94e9-20c3e110202c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\IO Dialog">
+      <UniqueIdentifier>{496ce9ce-bad8-47c4-9283-2ca9296e57ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs Headers\IO Dialog Headers">
+      <UniqueIdentifier>{08c762fc-eedf-4c6d-be30-cf0f4c5d8b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs Headers\Setting Dialog Headers">
+      <UniqueIdentifier>{c0bef5f4-eadf-4fc6-a87d-53ec2c78d331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\Setting Dialog">
+      <UniqueIdentifier>{34037bc7-93f2-45e8-8c0a-f25aa163fc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserInterface Source">
+      <UniqueIdentifier>{1dfd536e-22d8-48bc-8a29-7d31f52771a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface Headers">
+      <UniqueIdentifier>{3adf685d-9799-41ee-9e67-b5833b30a124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CodeSys Headers">
+      <UniqueIdentifier>{c06caba8-c9f8-43e1-ae1a-5f0a02717a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CodeSys Source">
+      <UniqueIdentifier>{a5c42721-d780-4860-81a2-b2baa7f1571e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\Teach Dialog">
+      <UniqueIdentifier>{5a1563fd-6493-4591-aed1-b5d3304031eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs Headers\Teach Dialog Headers">
+      <UniqueIdentifier>{1d6cf952-c6e3-45e0-9f9a-ad71af53c05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs Headers\UIDialogs Headers">
+      <UniqueIdentifier>{e28111cf-14cb-494e-9bc1-62bd5347af04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\UIDialogs">
+      <UniqueIdentifier>{87a48a07-9e4d-43f8-84a3-692849218d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicControls">
+      <UniqueIdentifier>{5c2943b1-8dc5-4ce1-8004-7f75c7be5afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BasicControls Headers">
+      <UniqueIdentifier>{0dab159c-8d93-4554-a610-3414f7dfbfe8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\YsbotControl.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\YsbotControl.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\auto_mode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coordinate_system.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\error_prompt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\external_auto_mode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hand_tools.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info_prompt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logo1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loop_connect.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loop_disconnect.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\manual_mode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_pause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_return.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_run.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_stop.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\project.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\robot1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\robot2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_motion_step.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_step.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\space_watch.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\warning_prompt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tick.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coordinate_world.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\variable_global.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\variable_program.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\variable_project.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\variable_system.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coordinate_joint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coordinate_tools.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TREEBTNS.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Overlay1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OverlayTrans.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TREEBTNS2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\scroll_bar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\plus.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\minus.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\radio-empty.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\radio-slelected.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tool.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\auto_mode.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\external_auto_mode.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\manual_mode.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\robot1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\robot2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coordinate_world.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_pause.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_run.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_stop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\program_wait.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_continue.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_motion_step.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\run_step.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\space_watch.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loop_connect.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loop_disconnect.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\error_prompt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info_prompt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\warning_prompt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\project.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\axis_motor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\motion_speed.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\None.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\disablecheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\unchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\2nd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ys.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idb_combobox_thump.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\undo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\leftArrow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rightArrow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\leftArrowDisable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rightArrowDisable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\disableUncheck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\servo_off.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\servo_on.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\servo_ready.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\grid_info.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\grid_warning.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\grid_error.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\home.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServoDummy.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServoFactory.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServoMaxsine.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServoType.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Servo.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigReader.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncSerial.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stringconvert.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Journal.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryOperate.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="YsbotControl.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="YsbotControlDlg.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="YsibotsException.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame2D.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry3D.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3D.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionControlType.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="McclMotionControl.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionControl.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionControlDummy.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionControlFactory.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="JogTeach.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TrajectoryPlan.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EpcioBase.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DHParaBase.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupProperties.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldModel.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotStateManager.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupStateMachine.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotState.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdInfo.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PosInfo.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericKine.h">
+      <Filter>Header Files\RobotKinematics Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicsBase.h">
+      <Filter>Header Files\RobotKinematics Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricKine.h">
+      <Filter>Header Files\RobotKinematics Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotKinematics.h">
+      <Filter>Header Files\RobotKinematics Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutContainer.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutObject.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IoModuleParameters.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBusDevice.h">
+      <Filter>Header Files\FieldBusDevice Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBusDeviceDummy.h">
+      <Filter>Header Files\FieldBusDevice Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBusDeviceFactory.h">
+      <Filter>Header Files\FieldBusDevice Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBusDeviceType.h">
+      <Filter>Header Files\FieldBusDevice Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeWeiPLC.h">
+      <Filter>Header Files\FieldBusDevice Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisPos.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CartPos.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionCoreInfo.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NidecSankyo.h">
+      <Filter>Header Files\Servo Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AddComUserInterface.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\Fundamental Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hotkey_id.h">
+      <Filter>Header Files\constant</Filter>
+    </ClInclude>
+    <ClInclude Include="colourcode.h">
+      <Filter>Header Files\constant</Filter>
+    </ClInclude>
+    <ClInclude Include="icon_class.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="common_file_tools.h">
+      <Filter>Header Files\function lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgCommandInfo.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PmcBase.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PmcTrajectoryPlan.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PmcJogTeach.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PmcMotionControl.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics.h">
+      <Filter>Header Files\RobotKinematics Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="left_dialog.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="control_id.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="program_dialog.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="program_editor.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="location_manager.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="variable_manager.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EDITGUI.h">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalInput.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalOutput.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PoseTransform.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationPlatform.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionSerialPort.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionCoordTransform.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionProcessing.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocket.h">
+      <Filter>Header Files\Communication Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTaskTypeBase.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMotion.h">
+      <Filter>Header Files\MotionControl Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TitleTip.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\CellRange.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCell.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCellBase.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCtrl.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\MemDC.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TreeCell.h">
+      <Filter>Header Files\TreeGrid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TreeNode.h">
+      <Filter>Header Files\TreeGrid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TreeGridCell.h">
+      <Filter>Header Files\TreeGrid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TreeGridCellCheck.h">
+      <Filter>Header Files\TreeGrid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TreeGridCtrl.h">
+      <Filter>Header Files\TreeGrid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCheck.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridURLCell.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCombo.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellComposite.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridObj.h">
+      <Filter>Header Files\New Cell Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScrollBar\SkinComboBox.h">
+      <Filter>Header Files\SkinScrollBar Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScrollBar\skinscrollwnd.h">
+      <Filter>Header Files\SkinScrollBar Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScrollBar\skinscrollbar.h">
+      <Filter>Header Files\SkinScrollBar Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinScrollBar\ListCtrlEx.h">
+      <Filter>Header Files\SkinScrollBar Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\digital_keyboard.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\full_qwerty.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\keyboard_button.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\redbud_caption.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\static_plus.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\xsleep.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\PopEdit.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\edit_plus.h">
+      <Filter>Header Files\Keyboard Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDummy.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgNewVariable.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPopupDlg.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\BCMenu.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\yrmcs_label_button.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\BtnST.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\Label.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\DIO_module.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\DIOSetting.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\InOutDialog.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\StaticBmp_Btn.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\StaticTransparent.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog\MechGrid.h">
+      <Filter>Header Files\Dialogs Headers\Setting Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog\SettingDlg_Joints.h">
+      <Filter>Header Files\Dialogs Headers\Setting Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog\SettingDlg_Mechanism.h">
+      <Filter>Header Files\Dialogs Headers\Setting Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupPropertiesReadWriter.h">
+      <Filter>Header Files\WorldModel Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog\SettingDlg_Origin.h">
+      <Filter>Header Files\Dialogs Headers\Setting Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\DialogUserInterface.h">
+      <Filter>Header Files\UserInterface Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\teachbox_tcp.h">
+      <Filter>Header Files\UserInterface Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface\vnc_2_2.h">
+      <Filter>Header Files\UserInterface Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\StringCompare.h">
+      <Filter>Header Files\Grid Control Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\GroupFrame.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PalletDLG.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionBuilderDLG.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionEditDLG.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="logDialog.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableBuilderDLG.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteDB.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyObjectList.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\ClientCommand.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\CodeSysMotion.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\FFMClass.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\IecBasicTypes.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\RobotClient.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeSys\ServerData.h">
+      <Filter>Header Files\CodeSys Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\IconComboBox.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\CoSysInfo.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\HelpFrame.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\JointData.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\MoveType.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\PoseData.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\TeachDlg.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachDialog\VariableSelect.h">
+      <Filter>Header Files\Dialogs Headers\Teach Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\BinaryData.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\VariableReadWriter.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaScript.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaState.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\ScriptFunc.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\ScriptVariableHelper.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\ScriptVariables.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\ScriptVariableType.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\TestHost.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\TestLuaBind.hpp">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\GenericValues.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\BasicScriptVariable.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaBool.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaString.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaInteger.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\LuaReal.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\ScriptCommandInfo.h">
+      <Filter>Header Files\LuaScript Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PngRadio.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\CstmComboBox.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PopupMFCGrid.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PopupDlgCtrl.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PopupListCtrl.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="minidump.h">
+      <Filter>Header Files\Dialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\DlgScriptCommandEdit.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\ProjectManager.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CRefCoSysSelect.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\UserCoSysDLG.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CRefCoSysSetting.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CToolCoSysVal.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CRefPosPic.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CRefSettingGuide.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\labels.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\button_class.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\buttons.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\comboboxes.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\ColumnTreeCtrl.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\static_button.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\grids.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PngButton.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\draw_frame.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CRefChooseMethod.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\CGroupBox.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\PngCheckBox.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\LoadPngImage.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CToolCoSysSetting.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CToolSettingGuide.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CToolMethod.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\ToolCoSysDLG.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\CToolPicture.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Conveyor.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SensableObject.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Structures Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\AreaDimension.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\AreaInformation.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\AreaGeneral.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\AreaIllustration.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SecurArea.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SecurityAreaDLG.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SqlDatabase.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SqlTableField.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SettingUserDLG.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SetControl.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SetSystem.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SetDisplay.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SetLogin.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SettingUserPopup.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\UserData.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SetUserManage.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\JournalDLG.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\JournalData.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\IoRegion.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IO Dialog\SettingIODlg.h">
+      <Filter>Header Files\Dialogs Headers\IO Dialog Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\MainDlg.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\bottom_dialog.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\state_dialog.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\right_dialog.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\popup_menu.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\WindowButtonMenu.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\dialog_template.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\PageManager.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\DialogType.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\InfoBox.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SystemInformation.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\MainMenuDlg.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\SecondMenuDlg.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\DlgParameterSetting.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\BkDialogST.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialogs\TeachPanelDlg.h">
+      <Filter>Header Files\Dialogs Headers\UIDialogs Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicControls\HelperButton.h">
+      <Filter>Header Files\BasicControls Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServoDummy.cpp">
+      <Filter>Source Files\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoFactory.cpp">
+      <Filter>Source Files\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoMaxsine.cpp">
+      <Filter>Source Files\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="Servo.cpp">
+      <Filter>Source Files\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigReader.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncSerial.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="stringconvert.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Journal.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryOperate.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="YsbotControlDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="YsbotControl.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="YsibotsException.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame2D.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry3D.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3D.cpp">
+      <Filter>Source Files\Fundamental</Filter>
+    </ClCompile>
+    <ClCompile Include="McclMotionControl.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionControlFactory.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionControl.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionControlDummy .cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdInfo.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="EpcioBase.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupProperties.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupStateMachine.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="JogTeach.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="PosInfo.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotState.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotStateManager.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TrajectoryPlan.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldModel.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericKine.cpp">
+      <Filter>Source Files\RobotKinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricKine.cpp">
+      <Filter>Source Files\RobotKinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicsBase.cpp">
+      <Filter>Source Files\RobotKinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotKinematics.cpp">
+      <Filter>Source Files\RobotKinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutContainer.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutObject.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBusDevice.cpp">
+      <Filter>Source Files\FieldBusDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="KeWeiPLC.cpp">
+      <Filter>Source Files\FieldBusDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBusDeviceDummy.cpp">
+      <Filter>Source Files\FieldBusDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBusDeviceFactory.cpp">
+      <Filter>Source Files\FieldBusDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisPos.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="CartPos.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionCoreInfo.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="NidecSankyo.cpp">
+      <Filter>Source Files\Servo</Filter>
+    </ClCompile>
+    <ClCompile Include="AddComUserInterface.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="hotkey_id.cpp">
+      <Filter>Source Files\constant</Filter>
+    </ClCompile>
+    <ClCompile Include="colourcode.cpp">
+      <Filter>Source Files\constant</Filter>
+    </ClCompile>
+    <ClCompile Include="icon_class.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="common_file_tools.cpp">
+      <Filter>Source Files\function lib</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgCommandInfo.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="PmcBase.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="PmcTrajectoryPlan.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="PmcJogTeach.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="PmcMotionControl.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="left_dialog.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="program_dialog.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="program_editor.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="location_manager.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="variable_manager.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="EDITGUI.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalInput.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalOutput.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="PoseTransform.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationPlatform.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionSerialPort.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionCoordTransform.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionProcessing.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocket.cpp">
+      <Filter>Source Files\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTaskTypeBase.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMotion.cpp">
+      <Filter>Source Files\MotionControl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCell.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TreeCell.cpp">
+      <Filter>Source Files\TreeGrid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TreeGridCtrl.cpp">
+      <Filter>Source Files\TreeGrid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TreeGridCell.cpp">
+      <Filter>Source Files\TreeGrid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TreeGridCellCheck.cpp">
+      <Filter>Source Files\TreeGrid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellComposite.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridObj.cpp">
+      <Filter>Source Files\New Cell Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScrollBar\SkinComboBox.cpp">
+      <Filter>Source Files\SkinScrollBar Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScrollBar\skinscrollwnd.cpp">
+      <Filter>Source Files\SkinScrollBar Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScrollBar\skinscrollbar.cpp">
+      <Filter>Source Files\SkinScrollBar Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinScrollBar\ListCtrlEx.cpp">
+      <Filter>Source Files\SkinScrollBar Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\digital_keyboard.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\full_qwerty.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\keyboard_button.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\PopEdit.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\redbud_caption.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\static_plus.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\xsleep.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\edit_plus.cpp">
+      <Filter>Source Files\Keyboard Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDummy.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgNewVariable.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPopupDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\BCMenu.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\yrmcs_label_button.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\BtnST.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\Label.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\DIO_Module.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\DIOSetting.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\InOutDialog.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\StaticBmp_Btn.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\StaticTransparent.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog\MechGrid.cpp">
+      <Filter>Source Files\Dialogs\Setting Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog\SettingDlg_Joints.cpp">
+      <Filter>Source Files\Dialogs\Setting Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog\SettingDlg_Mechanism.cpp">
+      <Filter>Source Files\Dialogs\Setting Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupPropertiesReadWriter.cpp">
+      <Filter>Source Files\WorldModel</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog\SettingDlg_Origin.cpp">
+      <Filter>Source Files\Dialogs\Setting Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\DialogUserInterface.cpp">
+      <Filter>Source Files\UserInterface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface\teachbox_tcp.cpp">
+      <Filter>Source Files\UserInterface Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\StringCompare.cpp">
+      <Filter>Source Files\Grid Control Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\GroupFrame.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionBuilderDLG.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PalletDLG.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionEditDLG.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="logDialog.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableBuilderDLG.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteDB.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyObjectList.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeSys\CodeSysMotion.cpp">
+      <Filter>Source Files\CodeSys Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeSys\FFMClass.cpp">
+      <Filter>Source Files\CodeSys Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeSys\RobotClient.cpp">
+      <Filter>Source Files\CodeSys Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeSys\ServerData.cpp">
+      <Filter>Source Files\CodeSys Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\IconComboBox.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\CoSysInfo.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\HelpFrame.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\JointData.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\MoveType.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\PoseData.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\TeachDlg.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachDialog\VariableSelect.cpp">
+      <Filter>Source Files\Dialogs\Teach Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\BinaryData.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\VariableReadWriter.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaScript.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaState.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\ScriptFunc.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\ScriptVariables.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\ScriptVariableType.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\GenericValues.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaBool.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaString.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaInteger.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\LuaReal.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript\ScriptCommandInfo.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PngRadio.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\CstmComboBox.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PopupMFCGrid.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PopupDlgCtrl.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PopupListCtrl.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\ProjectManager.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\DlgScriptCommandEdit.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CRefCoSysSelect.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\UserCoSysDLG.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CRefCoSysSetting.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CToolCoSysVal.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CRefPosPic.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CRefSettingGuide.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\labels.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\button_class.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\buttons.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\comboboxes.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\ColumnTreeCtrl.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\static_button.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\grids.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PngButton.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\draw_frame.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CRefChooseMethod.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\CGroupBox.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\PngCheckBox.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\LoadPngImage.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CToolCoSysSetting.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CToolSettingGuide.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CToolMethod.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\ToolCoSysDLG.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\CToolPicture.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Conveyor.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="SensableObject.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\AreaDimension.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\AreaInformation.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\AreaGeneral.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\AreaIllustration.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SecurityAreaDLG.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SecurArea.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SqlDatabase.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SettingUserDLG.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SetControl.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SetSystem.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SetDisplay.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SetLogin.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SettingUserPopup.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\UserData.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SetUserManage.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\JournalDLG.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\JournalData.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\IoRegion.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="IO Dialog\SettingIODlg.cpp">
+      <Filter>Source Files\Dialogs\IO Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\MainDlg.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\bottom_dialog.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\state_dialog.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\right_dialog.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\popup_menu.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\WindowButtonMenu.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\dialog_template.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\PageManager.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\DialogType.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\InfoBox.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SystemInformation.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\MainMenuDlg.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\SecondMenuDlg.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\DlgParameterSetting.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\BkDialogST.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialogs\TeachPanelDlg.cpp">
+      <Filter>Source Files\Dialogs\UIDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicControls\HelperButton.cpp">
+      <Filter>Source Files\BasicControls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YsbotControl.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

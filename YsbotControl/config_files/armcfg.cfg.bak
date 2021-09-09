@@ -1,0 +1,17 @@
+#+global_test.cfg
++global_real.cfg
+#+ tool_coordinate.cfg
+#+ user_coordinate.cfg
++ home_position.cfg
+#+ camera_distance.cfg
+#+ file_save_dir.cfg
+#+ ioport_function.cfg
+#+ simulator_robot.cfg
+#+ RobotStd_VP603.cfg
++RobotStd_VP608.cfg
+#+RobotStd_VP60503.cfg
++ io_module.cfg
++ vision.cfg 
+
+
+

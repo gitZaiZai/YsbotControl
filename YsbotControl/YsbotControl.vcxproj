@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugX86|Win32">
+      <Configuration>DebugX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugX86|x64">
+      <Configuration>DebugX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX86|Win32">
+      <Configuration>ReleaseX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX86|x64">
+      <Configuration>ReleaseX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D70EF7AE-3ADB-4104-9D37-10AEF2AEE1D3}</ProjectGuid>
+    <RootNamespace>YsbotControl</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_OWNER_DRAWN_TREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/;../LuaBind/luabind-0.9.1;../boost_1.6;../LuaBind/lua-5.1.3/src;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\include;$(ProjectDir)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Debug\roboop.lib;..\Debug\LuaBind.lib;..\Debug\ScintillaLib.lib;IMM32.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib;rbRobot.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_OWNER_DRAWN_TREE;USE_MACHINE_X86;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/;../LuaBind/luabind-0.9.1;../boost_1.6;../LuaBind/lua-5.1.3/src;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\include;$(ProjectDir)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Debug\roboop.lib;..\Debug\LuaBind.lib;..\Debug\ScintillaLib.lib;IMM32.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib;rbRobot.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Debug\roboop.lib;..\Debug\Lua53.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Debug\roboop.lib;..\Debug\Lua53.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_OWNER_DRAWN_TREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/;../LuaBind/luabind-0.9.1;../boost_1.6;../LuaBind/lua-5.1.3/src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Release\roboop.lib;..\Release\LuaBind.lib;..\Release\ScintillaLib.lib;IMM32.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib;rbRobot.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_OWNER_DRAWN_TREE;USE_MACHINE_X86;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/;../LuaBind/luabind-0.9.1;../boost_1.6;../LuaBind/lua-5.1.3/src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Release\roboop.lib;..\Release\LuaBind.lib;..\Release\ScintillaLib.lib;IMM32.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib;rbRobot.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Release\roboop.lib;..\Release\Lua53.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../LuaBridge/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Release\roboop.lib;..\Release\Lua53.lib;MCCLPCI_50.lib;MCSLPCI_PMC.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\2nd.ico" />
+    <None Include="res\auto_mode.bmp" />
+    <None Include="res\auto_mode.ico" />
+    <None Include="res\axis_motor.ico" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\checked.png" />
+    <None Include="res\coordinate_joint.bmp" />
+    <None Include="res\coordinate_system.bmp" />
+    <None Include="res\coordinate_tools.bmp" />
+    <None Include="res\coordinate_world.bmp" />
+    <None Include="res\coordinate_world.ico" />
+    <None Include="res\disablecheck.png" />
+    <None Include="res\disableUncheck.png" />
+    <None Include="res\error_prompt.bmp" />
+    <None Include="res\error_prompt.ico" />
+    <None Include="res\external_auto_mode.bmp" />
+    <None Include="res\external_auto_mode.ico" />
+    <None Include="res\grid_error.ico" />
+    <None Include="res\grid_info.ico" />
+    <None Include="res\grid_warning.ico" />
+    <None Include="res\hand_tools.bmp" />
+    <None Include="res\home.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\icon4.ico" />
+    <None Include="res\idb_combobox_thump.bmp" />
+    <None Include="res\info_prompt.bmp" />
+    <None Include="res\info_prompt.ico" />
+    <None Include="res\leftArrow.ico" />
+    <None Include="res\leftArrowDisable.ico" />
+    <None Include="res\logo1.bmp" />
+    <None Include="res\loop_connect.bmp" />
+    <None Include="res\loop_connect.ico" />
+    <None Include="res\loop_disconnect.bmp" />
+    <None Include="res\loop_disconnect.ico" />
+    <None Include="res\manual_mode.bmp" />
+    <None Include="res\manual_mode.ico" />
+    <None Include="res\minus.bmp" />
+    <None Include="res\motion_speed.ico" />
+    <None Include="res\None.ico" />
+    <None Include="res\Overlay1.ico" />
+    <None Include="res\OverlayTrans.ico" />
+    <None Include="res\plus.bmp" />
+    <None Include="res\program_pause.bmp" />
+    <None Include="res\program_pause.ico" />
+    <None Include="res\program_return.bmp" />
+    <None Include="res\program_run.bmp" />
+    <None Include="res\program_run.ico" />
+    <None Include="res\program_stop.bmp" />
+    <None Include="res\program_stop.ico" />
+    <None Include="res\program_wait.ico" />
+    <None Include="res\project.bmp" />
+    <None Include="res\project.ico" />
+    <None Include="res\radio-empty.ico" />
+    <None Include="res\radio-slelected.ico" />
+    <None Include="res\rightArrow.ico" />
+    <None Include="res\rightArrowDisable.ico" />
+    <None Include="res\robot1.bmp" />
+    <None Include="res\robot1.ico" />
+    <None Include="res\robot2.bmp" />
+    <None Include="res\robot2.ico" />
+    <None Include="res\run_continue.bmp" />
+    <None Include="res\run_continue.ico" />
+    <None Include="res\run_motion_step.bmp" />
+    <None Include="res\run_motion_step.ico" />
+    <None Include="res\run_step.bmp" />
+    <None Include="res\run_step.ico" />
+    <None Include="res\scroll_bar.bmp" />
+    <None Include="res\servo_off.ico" />
+    <None Include="res\servo_on.ico" />
+    <None Include="res\servo_ready.ico" />
+    <None Include="res\space_watch.bmp" />
+    <None Include="res\space_watch.ico" />
+    <None Include="res\tick.ico" />
+    <None Include="res\tool.ico" />
+    <None Include="res\TREEBTNS.bmp" />
+    <None Include="res\TREEBTNS2.bmp" />
+    <None Include="res\unchecked.png" />
+    <None Include="res\undo.ico" />
+    <None Include="res\variable_global.ico" />
+    <None Include="res\variable_program.ico" />
+    <None Include="res\variable_project.ico" />
+    <None Include="res\variable_system.ico" />
+    <None Include="res\warning_prompt.bmp" />
+    <None Include="res\warning_prompt.ico" />
+    <None Include="res\ys.ico" />
+    <None Include="res\YsbotControl.ico" />
+    <None Include="res\YsbotControl.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddComUserInterface.h" />
+    <ClInclude Include="Angle.h" />
+    <ClInclude Include="AxisPos.h" />
+    <ClInclude Include="BasicControls\BCMenu.h" />
+    <ClInclude Include="BasicControls\BkDialogST.h" />
+    <ClInclude Include="BasicControls\BtnST.h" />
+    <ClInclude Include="BasicControls\buttons.h" />
+    <ClInclude Include="BasicControls\button_class.h" />
+    <ClInclude Include="BasicControls\CGroupBox.h" />
+    <ClInclude Include="BasicControls\ColumnTreeCtrl.h" />
+    <ClInclude Include="BasicControls\comboboxes.h" />
+    <ClInclude Include="BasicControls\CstmComboBox.h" />
+    <ClInclude Include="BasicControls\draw_frame.h" />
+    <ClInclude Include="BasicControls\grids.h" />
+    <ClInclude Include="BasicControls\HelperButton.h" />
+    <ClInclude Include="BasicControls\IconComboBox.h" />
+    <ClInclude Include="BasicControls\Label.h" />
+    <ClInclude Include="BasicControls\labels.h" />
+    <ClInclude Include="BasicControls\LoadPngImage.h" />
+    <ClInclude Include="BasicControls\PngButton.h" />
+    <ClInclude Include="BasicControls\PngCheckBox.h" />
+    <ClInclude Include="BasicControls\PngRadio.h" />
+    <ClInclude Include="BasicControls\PopupDlgCtrl.h" />
+    <ClInclude Include="BasicControls\PopupListCtrl.h" />
+    <ClInclude Include="BasicControls\PopupMFCGrid.h" />
+    <ClInclude Include="BasicControls\static_button.h" />
+    <ClInclude Include="BasicControls\yrmcs_label_button.h" />
+    <ClInclude Include="CartPos.h" />
+    <ClInclude Include="CodeSys\ClientCommand.h" />
+    <ClInclude Include="CodeSys\CodeSysMotion.h" />
+    <ClInclude Include="CodeSys\FFMClass.h" />
+    <ClInclude Include="CodeSys\IecBasicTypes.h" />
+    <ClInclude Include="CodeSys\RobotClient.h" />
+    <ClInclude Include="CodeSys\ServerData.h" />
+    <ClInclude Include="Conveyor.h" />
+    <ClInclude Include="GridCtrl_src\StringCompare.h" />
+    <ClInclude Include="InstructionBuilderDLG.h" />
+    <ClInclude Include="InstructionEditDLG.h" />
+    <ClInclude Include="IO Dialog\GroupFrame.h" />
+    <ClInclude Include="IO Dialog\IoRegion.h" />
+    <ClInclude Include="IO Dialog\SettingIODlg.h" />
+    <ClInclude Include="KeyObjectList.h" />
+    <ClInclude Include="logDialog.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="LuaScript\BasicScriptVariable.h" />
+    <ClInclude Include="LuaScript\BinaryData.h" />
+    <ClInclude Include="LuaScript\GenericValues.h" />
+    <ClInclude Include="LuaScript\LuaBool.h" />
+    <ClInclude Include="LuaScript\LuaInteger.h" />
+    <ClInclude Include="LuaScript\LuaReal.h" />
+    <ClInclude Include="LuaScript\LuaScript.h" />
+    <ClInclude Include="LuaScript\LuaState.h" />
+    <ClInclude Include="LuaScript\LuaString.h" />
+    <ClInclude Include="LuaScript\ScriptCommandInfo.h" />
+    <ClInclude Include="LuaScript\ScriptFunc.h" />
+    <ClInclude Include="LuaScript\ScriptVariableHelper.h" />
+    <ClInclude Include="LuaScript\ScriptVariables.h" />
+    <ClInclude Include="LuaScript\ScriptVariableType.h" />
+    <ClInclude Include="LuaScript\TestHost.h" />
+    <ClInclude Include="LuaScript\TestLuaBind.hpp" />
+    <ClInclude Include="LuaScript\VariableReadWriter.h" />
+    <ClInclude Include="minidump.h" />
+    <ClInclude Include="PalletDLG.h" />
+    <ClInclude Include="SensableObject.h" />
+    <ClInclude Include="SQLiteDB.h" />
+    <ClInclude Include="TeachDialog\CoSysInfo.h" />
+    <ClInclude Include="TeachDialog\HelpFrame.h" />
+    <ClInclude Include="TeachDialog\JointData.h" />
+    <ClInclude Include="TeachDialog\MoveType.h" />
+    <ClInclude Include="TeachDialog\PoseData.h" />
+    <ClInclude Include="TeachDialog\TeachDlg.h" />
+    <ClInclude Include="TeachDialog\VariableSelect.h" />
+    <ClInclude Include="UIDialogs\AreaDimension.h" />
+    <ClInclude Include="UIDialogs\AreaGeneral.h" />
+    <ClInclude Include="UIDialogs\AreaIllustration.h" />
+    <ClInclude Include="UIDialogs\AreaInformation.h" />
+    <ClInclude Include="UIDialogs\bottom_dialog.h" />
+    <ClInclude Include="UIDialogs\CRefChooseMethod.h" />
+    <ClInclude Include="UIDialogs\CRefCoSysSelect.h" />
+    <ClInclude Include="UIDialogs\CRefCoSysSetting.h" />
+    <ClInclude Include="UIDialogs\CRefPosPic.h" />
+    <ClInclude Include="UIDialogs\CRefSettingGuide.h" />
+    <ClInclude Include="UIDialogs\CToolCoSysSetting.h" />
+    <ClInclude Include="UIDialogs\CToolCoSysVal.h" />
+    <ClInclude Include="UIDialogs\CToolMethod.h" />
+    <ClInclude Include="UIDialogs\CToolPicture.h" />
+    <ClInclude Include="UIDialogs\CToolSettingGuide.h" />
+    <ClInclude Include="UIDialogs\DialogType.h" />
+    <ClInclude Include="UIDialogs\dialog_template.h" />
+    <ClInclude Include="UIDialogs\DlgParameterSetting.h" />
+    <ClInclude Include="UIDialogs\DlgScriptCommandEdit.h" />
+    <ClInclude Include="UIDialogs\InfoBox.h" />
+    <ClInclude Include="UIDialogs\JournalData.h" />
+    <ClInclude Include="UIDialogs\JournalDLG.h" />
+    <ClInclude Include="UIDialogs\MainDlg.h" />
+    <ClInclude Include="UIDialogs\MainMenuDlg.h" />
+    <ClInclude Include="UIDialogs\PageManager.h" />
+    <ClInclude Include="UIDialogs\popup_menu.h" />
+    <ClInclude Include="UIDialogs\ProjectManager.h" />
+    <ClInclude Include="UIDialogs\right_dialog.h" />
+    <ClInclude Include="UIDialogs\SecondMenuDlg.h" />
+    <ClInclude Include="UIDialogs\SecurArea.h" />
+    <ClInclude Include="UIDialogs\SecurityAreaDLG.h" />
+    <ClInclude Include="UIDialogs\SetControl.h" />
+    <ClInclude Include="UIDialogs\SetDisplay.h" />
+    <ClInclude Include="UIDialogs\SetLogin.h" />
+    <ClInclude Include="UIDialogs\SetSystem.h" />
+    <ClInclude Include="UIDialogs\SettingUserDLG.h" />
+    <ClInclude Include="UIDialogs\SettingUserPopup.h" />
+    <ClInclude Include="UIDialogs\SetUserManage.h" />
+    <ClInclude Include="UIDialogs\SqlDatabase.h" />
+    <ClInclude Include="UIDialogs\SqlTableField.h" />
+    <ClInclude Include="UIDialogs\state_dialog.h" />
+    <ClInclude Include="UIDialogs\SystemInformation.h" />
+    <ClInclude Include="UIDialogs\TeachPanelDlg.h" />
+    <ClInclude Include="UIDialogs\ToolCoSysDLG.h" />
+    <ClInclude Include="UIDialogs\UserCoSysDLG.h" />
+    <ClInclude Include="UIDialogs\UserData.h" />
+    <ClInclude Include="UIDialogs\WindowButtonMenu.h" />
+    <ClInclude Include="UserInterface\DialogUserInterface.h" />
+    <ClInclude Include="DlgDummy.h" />
+    <ClInclude Include="GroupPropertiesReadWriter.h" />
+    <ClInclude Include="IO Dialog\DIOSetting.h" />
+    <ClInclude Include="IO Dialog\DIO_module.h" />
+    <ClInclude Include="IO Dialog\InOutDialog.h" />
+    <ClInclude Include="IO Dialog\StaticBmp_Btn.h" />
+    <ClInclude Include="IO Dialog\StaticTransparent.h" />
+    <ClInclude Include="Keyboard\digital_keyboard.h" />
+    <ClInclude Include="Keyboard\edit_plus.h" />
+    <ClInclude Include="Keyboard\full_qwerty.h" />
+    <ClInclude Include="Keyboard\keyboard_button.h" />
+    <ClInclude Include="Keyboard\PopEdit.h" />
+    <ClInclude Include="Keyboard\redbud_caption.h" />
+    <ClInclude Include="Keyboard\static_plus.h" />
+    <ClInclude Include="Keyboard\xsleep.h" />
+    <ClInclude Include="SettingDialog\MechGrid.h" />
+    <ClInclude Include="SettingDialog\SettingDlg_Joints.h" />
+    <ClInclude Include="SettingDialog\SettingDlg_Mechanism.h" />
+    <ClInclude Include="SettingDialog\SettingDlg_Origin.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="UserInterface\teachbox_tcp.h" />
+    <ClInclude Include="UserInterface\vnc_2_2.h" />
+    <ClInclude Include="VariableBuilderDLG.h" />
+    <ClInclude Include="colourcode.h" />
+    <ClInclude Include="common_file_tools.h" />
+    <ClInclude Include="control_id.h" />
+    <ClInclude Include="CustomMotion.h" />
+    <ClInclude Include="DigitalInput.h" />
+    <ClInclude Include="DigitalOutput.h" />
+    <ClInclude Include="DlgNewVariable.h" />
+    <ClInclude Include="EDITGUI.h" />
+    <ClInclude Include="EditPopupDlg.h" />
+    <ClInclude Include="FieldBusDevice.h" />
+    <ClInclude Include="FieldBusDeviceDummy.h" />
+    <ClInclude Include="FieldBusDeviceFactory.h" />
+    <ClInclude Include="FieldBusDeviceType.h" />
+    <ClInclude Include="GridCtrl_src\CellRange.h" />
+    <ClInclude Include="GridCtrl_src\GridCell.h" />
+    <ClInclude Include="GridCtrl_src\GridCellBase.h" />
+    <ClInclude Include="GridCtrl_src\GridCtrl.h" />
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h" />
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h" />
+    <ClInclude Include="GridCtrl_src\MemDC.h" />
+    <ClInclude Include="GridCtrl_src\TitleTip.h" />
+    <ClInclude Include="GridCtrl_src\TreeCell.h" />
+    <ClInclude Include="GridCtrl_src\TreeGridCell.h" />
+    <ClInclude Include="GridCtrl_src\TreeGridCellCheck.h" />
+    <ClInclude Include="GridCtrl_src\TreeGridCtrl.h" />
+    <ClInclude Include="GridCtrl_src\TreeNode.h" />
+    <ClInclude Include="hotkey_id.h" />
+    <ClInclude Include="icon_class.h" />
+    <ClInclude Include="kinematics.h" />
+    <ClInclude Include="left_dialog.h" />
+    <ClInclude Include="location_manager.h" />
+    <ClInclude Include="NewCellTypes\GridCellCheck.h" />
+    <ClInclude Include="NewCellTypes\GridCellCombo.h" />
+    <ClInclude Include="NewCellTypes\GridCellComposite.h" />
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h" />
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h" />
+    <ClInclude Include="NewCellTypes\GridObj.h" />
+    <ClInclude Include="NewCellTypes\GridURLCell.h" />
+    <ClInclude Include="SkinScrollBar\ListCtrlEx.h" />
+    <ClInclude Include="SkinScrollBar\SkinComboBox.h" />
+    <ClInclude Include="SkinScrollBar\skinscrollbar.h" />
+    <ClInclude Include="SkinScrollBar\skinscrollwnd.h" />
+    <ClInclude Include="MotionCoreInfo.h" />
+    <ClInclude Include="IoModuleParameters.h" />
+    <ClInclude Include="InOutContainer.h" />
+    <ClInclude Include="InOutObject.h" />
+    <ClInclude Include="KeWeiPLC.h" />
+    <ClInclude Include="NidecSankyo.h" />
+    <ClInclude Include="NumericKine.h" />
+    <ClInclude Include="ConfigReader.h" />
+    <ClInclude Include="DHParaBase.h" />
+    <ClInclude Include="DirectoryOperate.h" />
+    <ClInclude Include="EpcioBase.h" />
+    <ClInclude Include="Frame2D.h" />
+    <ClInclude Include="CmdInfo.h" />
+    <ClInclude Include="GeometricKine.h" />
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="geometry3D.h" />
+    <ClInclude Include="GroupProperties.h" />
+    <ClInclude Include="GroupStateMachine.h" />
+    <ClInclude Include="JogTeach.h" />
+    <ClInclude Include="Journal.h" />
+    <ClInclude Include="McclMotionControl.h" />
+    <ClInclude Include="MotionControl.h" />
+    <ClInclude Include="MotionControlDummy.h" />
+    <ClInclude Include="MotionControlFactory.h" />
+    <ClInclude Include="MotionControlType.h" />
+    <ClInclude Include="PmcBase.h" />
+    <ClInclude Include="PmcJogTeach.h" />
+    <ClInclude Include="PmcMotionControl.h" />
+    <ClInclude Include="PmcTrajectoryPlan.h" />
+    <ClInclude Include="PoseTransform.h" />
+    <ClInclude Include="PosInfo.h" />
+    <ClInclude Include="ProgCommandInfo.h" />
+    <ClInclude Include="program_dialog.h" />
+    <ClInclude Include="program_editor.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RobotKinematics.h" />
+    <ClInclude Include="KinematicsBase.h" />
+    <ClInclude Include="RobotState.h" />
+    <ClInclude Include="RobotStateManager.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="Servo.h" />
+    <ClInclude Include="ServoDummy.h" />
+    <ClInclude Include="ServoFactory.h" />
+    <ClInclude Include="ServoMaxsine.h" />
+    <ClInclude Include="ServoType.h" />
+    <ClInclude Include="SimulationPlatform.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stringconvert.h" />
+    <ClInclude Include="SyncSerial.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TcpSocket.h" />
+    <ClInclude Include="ThreadTaskTypeBase.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="TrajectoryPlan.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="variable_manager.h" />
+    <ClInclude Include="Vec.h" />
+    <ClInclude Include="Vec3D.h" />
+    <ClInclude Include="VisionCoordTransform.h" />
+    <ClInclude Include="VisionProcessing.h" />
+    <ClInclude Include="VisionSerialPort.h" />
+    <ClInclude Include="WorldModel.h" />
+    <ClInclude Include="YsbotControl.h" />
+    <ClInclude Include="YsbotControlDlg.h" />
+    <ClInclude Include="YsibotsException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddComUserInterface.cpp" />
+    <ClCompile Include="Angle.cpp" />
+    <ClCompile Include="AxisPos.cpp" />
+    <ClCompile Include="BasicControls\BCMenu.cpp" />
+    <ClCompile Include="BasicControls\BkDialogST.cpp" />
+    <ClCompile Include="BasicControls\BtnST.cpp" />
+    <ClCompile Include="BasicControls\buttons.cpp" />
+    <ClCompile Include="BasicControls\button_class.cpp" />
+    <ClCompile Include="BasicControls\CGroupBox.cpp" />
+    <ClCompile Include="BasicControls\ColumnTreeCtrl.cpp" />
+    <ClCompile Include="BasicControls\comboboxes.cpp" />
+    <ClCompile Include="BasicControls\CstmComboBox.cpp" />
+    <ClCompile Include="BasicControls\draw_frame.cpp" />
+    <ClCompile Include="BasicControls\grids.cpp" />
+    <ClCompile Include="BasicControls\HelperButton.cpp" />
+    <ClCompile Include="BasicControls\IconComboBox.cpp" />
+    <ClCompile Include="BasicControls\Label.cpp" />
+    <ClCompile Include="BasicControls\labels.cpp" />
+    <ClCompile Include="BasicControls\LoadPngImage.cpp" />
+    <ClCompile Include="BasicControls\PngButton.cpp" />
+    <ClCompile Include="BasicControls\PngCheckBox.cpp" />
+    <ClCompile Include="BasicControls\PngRadio.cpp" />
+    <ClCompile Include="BasicControls\PopupDlgCtrl.cpp" />
+    <ClCompile Include="BasicControls\PopupListCtrl.cpp" />
+    <ClCompile Include="BasicControls\PopupMFCGrid.cpp" />
+    <ClCompile Include="BasicControls\static_button.cpp" />
+    <ClCompile Include="BasicControls\yrmcs_label_button.cpp" />
+    <ClCompile Include="CartPos.cpp" />
+    <ClCompile Include="CodeSys\CodeSysMotion.cpp" />
+    <ClCompile Include="CodeSys\FFMClass.cpp" />
+    <ClCompile Include="CodeSys\RobotClient.cpp" />
+    <ClCompile Include="CodeSys\ServerData.cpp" />
+    <ClCompile Include="Conveyor.cpp" />
+    <ClCompile Include="GridCtrl_src\StringCompare.cpp" />
+    <ClCompile Include="InstructionBuilderDLG.cpp" />
+    <ClCompile Include="InstructionEditDLG.cpp" />
+    <ClCompile Include="IO Dialog\GroupFrame.cpp" />
+    <ClCompile Include="IO Dialog\IoRegion.cpp" />
+    <ClCompile Include="IO Dialog\SettingIODlg.cpp" />
+    <ClCompile Include="KeyObjectList.cpp" />
+    <ClCompile Include="logDialog.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="LuaScript\BinaryData.cpp" />
+    <ClCompile Include="LuaScript\GenericValues.cpp" />
+    <ClCompile Include="LuaScript\LuaBool.cpp" />
+    <ClCompile Include="LuaScript\LuaInteger.cpp" />
+    <ClCompile Include="LuaScript\LuaReal.cpp" />
+    <ClCompile Include="LuaScript\LuaScript.cpp" />
+    <ClCompile Include="LuaScript\LuaState.cpp" />
+    <ClCompile Include="LuaScript\LuaString.cpp" />
+    <ClCompile Include="LuaScript\ScriptCommandInfo.cpp" />
+    <ClCompile Include="LuaScript\ScriptFunc.cpp" />
+    <ClCompile Include="LuaScript\ScriptVariables.cpp" />
+    <ClCompile Include="LuaScript\ScriptVariableType.cpp" />
+    <ClCompile Include="LuaScript\VariableReadWriter.cpp" />
+    <ClCompile Include="MiniDump.cpp" />
+    <ClCompile Include="PalletDLG.cpp" />
+    <ClCompile Include="SensableObject.cpp" />
+    <ClCompile Include="SQLiteDB.cpp" />
+    <ClCompile Include="TeachDialog\CoSysInfo.cpp" />
+    <ClCompile Include="TeachDialog\HelpFrame.cpp" />
+    <ClCompile Include="TeachDialog\JointData.cpp" />
+    <ClCompile Include="TeachDialog\MoveType.cpp" />
+    <ClCompile Include="TeachDialog\PoseData.cpp" />
+    <ClCompile Include="TeachDialog\TeachDlg.cpp" />
+    <ClCompile Include="TeachDialog\VariableSelect.cpp" />
+    <ClCompile Include="UIDialogs\AreaDimension.cpp" />
+    <ClCompile Include="UIDialogs\AreaGeneral.cpp" />
+    <ClCompile Include="UIDialogs\AreaIllustration.cpp" />
+    <ClCompile Include="UIDialogs\AreaInformation.cpp" />
+    <ClCompile Include="UIDialogs\bottom_dialog.cpp" />
+    <ClCompile Include="UIDialogs\CRefChooseMethod.cpp" />
+    <ClCompile Include="UIDialogs\CRefCoSysSelect.cpp" />
+    <ClCompile Include="UIDialogs\CRefCoSysSetting.cpp" />
+    <ClCompile Include="UIDialogs\CRefPosPic.cpp" />
+    <ClCompile Include="UIDialogs\CRefSettingGuide.cpp" />
+    <ClCompile Include="UIDialogs\CToolCoSysSetting.cpp" />
+    <ClCompile Include="UIDialogs\CToolCoSysVal.cpp" />
+    <ClCompile Include="UIDialogs\CToolMethod.cpp" />
+    <ClCompile Include="UIDialogs\CToolPicture.cpp" />
+    <ClCompile Include="UIDialogs\CToolSettingGuide.cpp" />
+    <ClCompile Include="UIDialogs\DialogType.cpp" />
+    <ClCompile Include="UIDialogs\dialog_template.cpp" />
+    <ClCompile Include="UIDialogs\DlgParameterSetting.cpp" />
+    <ClCompile Include="UIDialogs\DlgScriptCommandEdit.cpp" />
+    <ClCompile Include="UIDialogs\InfoBox.cpp" />
+    <ClCompile Include="UIDialogs\JournalData.cpp" />
+    <ClCompile Include="UIDialogs\JournalDLG.cpp" />
+    <ClCompile Include="UIDialogs\MainDlg.cpp" />
+    <ClCompile Include="UIDialogs\MainMenuDlg.cpp" />
+    <ClCompile Include="UIDialogs\PageManager.cpp" />
+    <ClCompile Include="UIDialogs\popup_menu.cpp" />
+    <ClCompile Include="UIDialogs\ProjectManager.cpp" />
+    <ClCompile Include="UIDialogs\right_dialog.cpp" />
+    <ClCompile Include="UIDialogs\SecondMenuDlg.cpp" />
+    <ClCompile Include="UIDialogs\SecurArea.cpp" />
+    <ClCompile Include="UIDialogs\SecurityAreaDLG.cpp" />
+    <ClCompile Include="UIDialogs\SetControl.cpp" />
+    <ClCompile Include="UIDialogs\SetDisplay.cpp" />
+    <ClCompile Include="UIDialogs\SetLogin.cpp" />
+    <ClCompile Include="UIDialogs\SetSystem.cpp" />
+    <ClCompile Include="UIDialogs\SettingUserDLG.cpp" />
+    <ClCompile Include="UIDialogs\SettingUserPopup.cpp" />
+    <ClCompile Include="UIDialogs\SetUserManage.cpp" />
+    <ClCompile Include="UIDialogs\SqlDatabase.cpp" />
+    <ClCompile Include="UIDialogs\state_dialog.cpp" />
+    <ClCompile Include="UIDialogs\SystemInformation.cpp" />
+    <ClCompile Include="UIDialogs\TeachPanelDlg.cpp" />
+    <ClCompile Include="UIDialogs\ToolCoSysDLG.cpp" />
+    <ClCompile Include="UIDialogs\UserCoSysDLG.cpp" />
+    <ClCompile Include="UIDialogs\UserData.cpp" />
+    <ClCompile Include="UIDialogs\WindowButtonMenu.cpp" />
+    <ClCompile Include="UserInterface\DialogUserInterface.cpp" />
+    <ClCompile Include="DlgDummy.cpp" />
+    <ClCompile Include="GroupPropertiesReadWriter.cpp" />
+    <ClCompile Include="IO Dialog\DIOSetting.cpp" />
+    <ClCompile Include="IO Dialog\DIO_Module.cpp" />
+    <ClCompile Include="IO Dialog\InOutDialog.cpp" />
+    <ClCompile Include="IO Dialog\StaticBmp_Btn.cpp" />
+    <ClCompile Include="IO Dialog\StaticTransparent.cpp" />
+    <ClCompile Include="Keyboard\digital_keyboard.cpp" />
+    <ClCompile Include="Keyboard\edit_plus.cpp" />
+    <ClCompile Include="Keyboard\full_qwerty.cpp" />
+    <ClCompile Include="Keyboard\keyboard_button.cpp" />
+    <ClCompile Include="Keyboard\PopEdit.cpp" />
+    <ClCompile Include="Keyboard\redbud_caption.cpp" />
+    <ClCompile Include="Keyboard\static_plus.cpp" />
+    <ClCompile Include="Keyboard\xsleep.cpp" />
+    <ClCompile Include="SettingDialog\MechGrid.cpp" />
+    <ClCompile Include="SettingDialog\SettingDlg_Joints.cpp" />
+    <ClCompile Include="SettingDialog\SettingDlg_Mechanism.cpp" />
+    <ClCompile Include="SettingDialog\SettingDlg_Origin.cpp" />
+    <ClCompile Include="UserInterface\teachbox_tcp.cpp" />
+    <ClCompile Include="VariableBuilderDLG.cpp" />
+    <ClCompile Include="colourcode.cpp" />
+    <ClCompile Include="common_file_tools.cpp" />
+    <ClCompile Include="CustomMotion.cpp" />
+    <ClCompile Include="DigitalInput.cpp" />
+    <ClCompile Include="DigitalOutput.cpp" />
+    <ClCompile Include="DlgNewVariable.cpp" />
+    <ClCompile Include="EDITGUI.cpp" />
+    <ClCompile Include="EditPopupDlg.cpp" />
+    <ClCompile Include="FieldBusDevice.cpp" />
+    <ClCompile Include="FieldBusDeviceDummy.cpp" />
+    <ClCompile Include="FieldBusDeviceFactory.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCell.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp" />
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp" />
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp" />
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp" />
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp" />
+    <ClCompile Include="GridCtrl_src\TreeCell.cpp" />
+    <ClCompile Include="GridCtrl_src\TreeGridCell.cpp" />
+    <ClCompile Include="GridCtrl_src\TreeGridCellCheck.cpp" />
+    <ClCompile Include="GridCtrl_src\TreeGridCtrl.cpp" />
+    <ClCompile Include="hotkey_id.cpp" />
+    <ClCompile Include="icon_class.cpp" />
+    <ClCompile Include="left_dialog.cpp" />
+    <ClCompile Include="location_manager.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellComposite.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp" />
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp" />
+    <ClCompile Include="NewCellTypes\GridObj.cpp" />
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp" />
+    <ClCompile Include="SkinScrollBar\ListCtrlEx.cpp" />
+    <ClCompile Include="SkinScrollBar\SkinComboBox.cpp" />
+    <ClCompile Include="SkinScrollBar\skinscrollbar.cpp" />
+    <ClCompile Include="SkinScrollBar\skinscrollwnd.cpp" />
+    <ClCompile Include="MotionCoreInfo.cpp" />
+    <ClCompile Include="InOutContainer.cpp" />
+    <ClCompile Include="InOutObject.cpp" />
+    <ClCompile Include="KeWeiPLC.cpp" />
+    <ClCompile Include="NidecSankyo.cpp" />
+    <ClCompile Include="NumericKine.cpp" />
+    <ClCompile Include="ConfigReader.cpp" />
+    <ClCompile Include="DirectoryOperate.cpp" />
+    <ClCompile Include="EpcioBase.cpp" />
+    <ClCompile Include="Frame2D.cpp" />
+    <ClCompile Include="CmdInfo.cpp" />
+    <ClCompile Include="GeometricKine.cpp" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="geometry3D.cpp" />
+    <ClCompile Include="GroupProperties.cpp" />
+    <ClCompile Include="GroupStateMachine.cpp" />
+    <ClCompile Include="JogTeach.cpp" />
+    <ClCompile Include="Journal.cpp" />
+    <ClCompile Include="McclMotionControl.cpp" />
+    <ClCompile Include="MotionControl.cpp" />
+    <ClCompile Include="MotionControlDummy .cpp" />
+    <ClCompile Include="MotionControlFactory.cpp" />
+    <ClCompile Include="PmcBase.cpp" />
+    <ClCompile Include="PmcJogTeach.cpp" />
+    <ClCompile Include="PmcMotionControl.cpp" />
+    <ClCompile Include="PmcTrajectoryPlan.cpp" />
+    <ClCompile Include="PoseTransform.cpp" />
+    <ClCompile Include="PosInfo.cpp" />
+    <ClCompile Include="ProgCommandInfo.cpp" />
+    <ClCompile Include="program_dialog.cpp" />
+    <ClCompile Include="program_editor.cpp" />
+    <ClCompile Include="RobotKinematics.cpp" />
+    <ClCompile Include="KinematicsBase.cpp" />
+    <ClCompile Include="RobotState.cpp" />
+    <ClCompile Include="RobotStateManager.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="Servo.cpp" />
+    <ClCompile Include="ServoDummy.cpp" />
+    <ClCompile Include="ServoFactory.cpp" />
+    <ClCompile Include="ServoMaxsine.cpp" />
+    <ClCompile Include="SimulationPlatform.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stringconvert.cpp" />
+    <ClCompile Include="SyncSerial.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
+    <ClCompile Include="ThreadTaskTypeBase.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TrajectoryPlan.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="variable_manager.cpp" />
+    <ClCompile Include="Vec.cpp" />
+    <ClCompile Include="Vec3D.cpp" />
+    <ClCompile Include="VisionCoordTransform.cpp" />
+    <ClCompile Include="VisionProcessing.cpp" />
+    <ClCompile Include="VisionSerialPort.cpp" />
+    <ClCompile Include="WorldModel.cpp" />
+    <ClCompile Include="YsbotControl.cpp" />
+    <ClCompile Include="YsbotControlDlg.cpp" />
+    <ClCompile Include="YsibotsException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YsbotControl.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="YsbotControl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
